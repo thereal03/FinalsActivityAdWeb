@@ -1,0 +1,44 @@
+<nav class="custom-navbar">
+  <div class="custom-navbar-container">
+    <a href="#" class="custom-logo">
+      <img src="https://www.hau.edu.ph/images/logo-circle.png" class="custom-logo-image" alt="HAU Logo" />
+      <span class="custom-logo-text">HAU</span>
+    </a>
+    <button class="custom-menu-toggle" aria-label="Open main menu">
+      <span class="sr-only">Open main menu</span>
+      <svg class="custom-menu-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 14">
+        <path class="custom-menu-icon-path" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+      </svg>
+    </button>
+    <div class="custom-menu">
+      <ul class="custom-menu-list">
+        <li>
+          <a href="#" class="custom-menu-link" routerLink="/add-book" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Add Books</a>
+        </li>
+        <li>
+          <a href="#" class="custom-menu-link" routerLink="/books-list" routerLinkActive="active">Show Books</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+<!-- <nav class="bg-white border-gray-200 dark:bg-gray-900">
+ 
+  <div id="navbarNav" class="collapse navbar-collapse">
+    <ul>
+      <li>
+        <a class="nav-link" routerLinkActive="active" routerLink="/books-list">Show Books</a>
+      </li>
+      <li>
+        <a class="nav-link" routerLinkActive="active" routerLink="/add-book">Add Books</a>
+      </li>
+    </ul>
+  </div>
+</nav> -->
+
+<router-outlet></router-outlet>

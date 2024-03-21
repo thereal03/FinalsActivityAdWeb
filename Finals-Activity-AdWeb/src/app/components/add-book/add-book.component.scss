@@ -1,0 +1,58 @@
+body {
+  background-color: #3d1900; /* Brown background */
+}
+
+.form-container {
+  background-color: #3d1900; /* Brown background */
+  padding: 1.5rem; /* Increased padding for aesthetic */
+  border-radius: 10px; /* Rounded corners for aesthetic */
+  max-width: 100%; /* Ensure content does not exceed container width */
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.form-container form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.label {
+  color: #ffffff; /* White label text */
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.75rem; /* Increased padding for aesthetic */
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px; /* Rounded corners for aesthetic */
+  background-color: #d2b48c; /* Light brown background */
+  color: #8b4513; /* Brown text color */
+}
+
+.mat-chip-listbox {
+  color: #ffffff; /* White chip text */
+  margin-bottom: 0.5rem;
+
+  .mat-chip {
+    background-color: #6c757d; /* Dark brown chip background */
+    margin-right: 0.5rem;
+    border-radius: 5px; /* Rounded corners for aesthetic */
+  }
+}
+
+.button {
+  background-color: #642a00; /* Darker brown button background */
+  color: #ffffff; /* White button text color */
+  border: none;
+  padding: 0.75rem 1rem; /* Increased padding for aesthetic */
+  font-size: 1rem;
+  border-radius: 5px; /* Rounded corners for aesthetic */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #da9035; /* Dark brown hover background */
+    color: black;
+  }
+}
